@@ -9,8 +9,8 @@ module.exports = {
     extend: {
       colors: {
         background: platformSelect({
-          android: 'rgb(var(--android-background) / <alpha-value>)',
           ios: 'rgb(var(--background) / <alpha-value>)',
+          android: 'rgb(var(--android-background) / <alpha-value>)',
         }),
       },
     },
